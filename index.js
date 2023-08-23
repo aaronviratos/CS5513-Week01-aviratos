@@ -8,7 +8,7 @@ let myserver = myhttp.createServer(
     if ( myrequest.url === "/hey" ) {
       mytext = "I'm Batman";
     } else {
-      mytext = "Hello there, I'm Bruce Wayne";
+      mytext = "Hello there, I'm Bruce Wayne!";
     }
 
     myresponse.writeHead( 200, { "Content-Type": "text/plain" } );
